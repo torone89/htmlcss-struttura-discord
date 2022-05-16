@@ -41,18 +41,34 @@ footer {
 
 /* Utilities */
 
+.padding {
+    padding: 10px;
+}
+
+nav {
+    padding: 30px;
+}
+
 /* Header */
 
 .cointaner-header-nav {
     margin: 0 10%;
     background-color: #23272a;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cointaner-header-main {
     margin: 0 10%;
     background-color: #eef1f3;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Main */
