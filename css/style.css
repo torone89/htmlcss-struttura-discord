@@ -25,12 +25,7 @@ header {
     background-color: #3865e1;
 }
 
-main {
-    max-width: 100%;
-    height: 2000px;
-    background-color: #a3a1a1;
 
-}
 
 footer {
     max-width: 100%;
@@ -72,5 +67,38 @@ nav {
 }
 
 /* Main */
+
+.main-cointaner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    height: 2500px;
+    background-color: #a3a1a1;
+}
+
+#first {
+    max-width: 100%;
+    height: 500px;
+    background-color: #ea0f96
+}
+
+#second {
+    max-width: 100%;
+    height: 500px;
+    background-color: #0db54d
+}
+
+#third {
+    max-width: 100%;
+    height: 500px;
+    background-color: #047c81
+}
+
+#fourth {
+    max-width: 100%;
+    height: 1000px;
+    background-color: #074f86
+}
 
 /* Footer */
