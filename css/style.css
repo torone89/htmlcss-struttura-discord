@@ -29,9 +29,12 @@ header {
 
     height: 500px;
     background-color: #3865e1;
+
 }
 
-
+body {
+    width: 1300px;
+}
 
 
 
@@ -50,6 +53,7 @@ nav {
 .row {
     width: 100%;
     display: flex;
+    flex-direction: row;
 }
 
 .column {
@@ -59,15 +63,14 @@ nav {
 
 .center {
     justify-content: center;
-    align-content: space-between;
+    max-width: 100%;
+    height: 500px;
+    align-items: center;
+
 }
 
-.colonna {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    display: flex;
-}
+
+
 
 .row-large {
     width: 70%
@@ -144,8 +147,25 @@ nav {
     background-color: #19cfd5;
 }
 
-.footer-background-seond {
+.footer-postion-nav {
+    justify-content: space-around;
+    max-width: 100%;
+    height: 400px;
+    align-items: flex-start;
+
+}
+
+.footer-background-second {
 
     height: 100px;
     background-color: #cdec04;
+}
+
+.footer-postion-second {
+    justify-content: space-between;
+    max-width: 100%;
+    height: 100px;
+    align-items: center;
+    border-top: 1px grey solid;
+
 }
