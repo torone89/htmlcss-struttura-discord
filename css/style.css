@@ -43,6 +43,18 @@ footer {
 
 /* Header */
 
+.cointaner-header-nav {
+    margin: 0 10%;
+    background-color: #23272a;
+    height: 100px;
+}
+
+.cointaner-header-main {
+    margin: 0 10%;
+    background-color: #eef1f3;
+    height: 400px;
+}
+
 /* Main */
 
 /* Footer */
