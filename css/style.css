@@ -62,10 +62,21 @@ nav {
     flex-direction: column;
 }
 
+.colonna-first {
+
+    background-color: #19cfd5;
+
+}
+
+
+.colonna-second {
+
+    background-color: #cdec04;
+
+}
+
 .center {
     justify-content: center;
-    max-width: 100%;
-    height: 500px;
     align-items: center;
 
 }
@@ -73,16 +84,22 @@ nav {
 
 
 
-.row-large {
-    width: 70%
+.large {
+    width: 70%;
+    height: 500px;
 }
 
 
 
-.row-small {
+.small {
     width: 30%;
+    height: 500px;
 }
 
+.same {
+    width: 50%;
+    height: 500px;
+}
 
 /* Header */
 
