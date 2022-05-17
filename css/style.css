@@ -138,3 +138,8 @@ footer .footer-top {
     flex-basis: 25%;
     background-color: blue;
 }
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
