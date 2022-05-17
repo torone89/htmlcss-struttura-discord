@@ -58,6 +58,7 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    background-color: #cdec04;
 
 }
 
@@ -73,6 +74,7 @@ header {
 #sfondo {
     height: 500px;
     max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
