@@ -78,12 +78,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #sfondo .content-sfondo {
     height: 100%;
     width: 50%;
-
+    background-color: coral;
 }
 
 /* Main */
@@ -93,7 +94,7 @@ header {
 
 .colonna-large {
     flex-basis: 60%;
-    color: #cdec04;
+    background-color: #2bec04;
 
 }
 
